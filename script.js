@@ -1,2 +1,7 @@
-//test:
-//
+function Dice(){
+const randomNumber=Math.floor(Math.random() * 6) + 1;
+//console.log(randomNumber);
+return randomNumber;
+}
+
+//Dice();
